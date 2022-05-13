@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import {HomeBar} from './HomeBar'
 
 function App() {
   return (
     <div className="App">
+      <HomeBar/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

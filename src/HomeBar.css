@@ -1,0 +1,22 @@
+.container{
+    width: auto;
+    height: 90px;
+}
+
+.title{
+    float:left;
+    padding-left: 50px;
+}
+.buttons{
+    height: auto;
+    float:right;
+    padding-top: 15px;
+    padding-right: 30px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    padding-left:30px;
+}
