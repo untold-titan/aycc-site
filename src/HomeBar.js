@@ -3,7 +3,7 @@ export const HomeBar = () =>{
     return(
         <div class="container">
             <div class="title">
-                <h1>AYPC</h1>
+                <h1>ABYPC</h1>
             </div>
             <div class="navigation">
                 <ul>
