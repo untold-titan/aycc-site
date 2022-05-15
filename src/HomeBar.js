@@ -5,23 +5,33 @@ export const HomeBar = () =>{
             <div class="title">
                 <h1>AYPC</h1>
             </div>
-            <div class="buttons">
+            <div class="navigation">
                 <ul>
                     <li>
-                        <p>Item</p>
+                        <p>Home</p>
                     </li>
                     <li>
-                        <p>Item</p>
+                        <p>About Us</p>
                     </li>
                     <li>
-                        <p>Item</p>
+                        <p>Contact</p>
                     </li>
                     <li>
-                        <p>Item</p>
+                        <p>Projects</p>
+                    </li>
+                    <li>
+                        <p>FAQ</p>
                     </li>
                 </ul>
+                {/* <div class="social-buttons">
+                <ul>
+                    <li>
+                        <p>discord</p>
+                    </li>
+                </ul>
+                </div> */}
             </div>
-            
+
         </div>
     );
 }

@@ -1,18 +1,25 @@
 .container{
     width: auto;
     height: 90px;
+    margin-bottom: 25px;
+    border-bottom: 1px grey;
 }
-
 .title{
     float:left;
     padding-left: 50px;
 }
-.buttons{
-    height: auto;
+.social-buttons{
     float:right;
-    padding-top: 15px;
-    padding-right: 30px;
 }
+.navigation{
+    position: relative;
+    display: block;
+    height: 90px;
+    float:right;
+    padding-right: 30px;
+    /* border-right: 1px solid blue; */
+}
+
 ul{
     list-style: none;
     display: flex;

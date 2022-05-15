@@ -1,0 +1,10 @@
+.story{
+    width: 350px;
+    display:inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 30px;
+    height:auto;
+}
