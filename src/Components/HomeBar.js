@@ -1,4 +1,6 @@
 import './HomeBar.css';
+import {Link } from "react-router-dom";
+
 export const HomeBar = () =>{
     return(
         <div class="container">
@@ -6,30 +8,22 @@ export const HomeBar = () =>{
                 <h1>ABYPC</h1>
             </div>
             <div class="navigation">
+                <nav>
                 <ul>
                     <li>
-                        <p>Home</p>
+                        <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <p>About Us</p>
+                        <Link to="/aboutus">About Us</Link>
                     </li>
                     <li>
-                        <p>Contact</p>
+                        <a href="Home">Projects</a>
                     </li>
                     <li>
-                        <p>Projects</p>
-                    </li>
-                    <li>
-                        <p>FAQ</p>
+                        <a href="Home">FAQ</a>
                     </li>
                 </ul>
-                {/* <div class="social-buttons">
-                <ul>
-                    <li>
-                        <p>discord</p>
-                    </li>
-                </ul>
-                </div> */}
+                </nav>
             </div>
 
         </div>

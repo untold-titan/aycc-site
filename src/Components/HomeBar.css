@@ -2,7 +2,9 @@
     width: auto;
     height: 90px;
     margin-bottom: 25px;
+    border: 0px;
     border-bottom: 1px grey;
+    border-style: solid;
 }
 .title{
     float:left;
@@ -25,5 +27,10 @@ ul{
     display: flex;
 }
 li{
-    padding-left:30px;
+    padding-top:15px;
+}
+a{
+    padding: 15px;
+    font-size: 22px;
+    color: black;
 }
