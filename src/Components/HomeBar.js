@@ -17,10 +17,10 @@ export const HomeBar = () =>{
                         <Link to="/aboutus">About Us</Link>
                     </li>
                     <li>
-                        <a href="Home">Projects</a>
+                        <Link to="/projects">Projects</Link>
                     </li>
                     <li>
-                        <a href="Home">FAQ</a>
+                        <Link to="/faq">FAQ</Link>
                     </li>
                 </ul>
                 </nav>
