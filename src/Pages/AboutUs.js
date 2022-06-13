@@ -5,7 +5,7 @@ import './AboutUs.css'
 export function AboutUs() {
     return (
         <div>
-            <div class="App core">
+            <div className="App core">
                 <h1>ABYPC Staff</h1>
                 <Story title="Mitchell"/>
                 <Story title="Chris"/>

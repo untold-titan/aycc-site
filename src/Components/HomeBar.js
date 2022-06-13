@@ -3,11 +3,11 @@ import {Link } from "react-router-dom";
 
 export const HomeBar = () =>{
     return(
-        <div class="container">
-            <div class="title">
+        <div className="container">
+            <div className="title">
                 <h1>ABYPC</h1>
             </div>
-            <div class="navigation">
+            <div className="navigation">
                 <nav>
                 <ul>
                     <li>
@@ -21,6 +21,15 @@ export const HomeBar = () =>{
                     </li>
                     <li>
                         <Link to="/faq">FAQ</Link>
+                    </li>
+                    <li>
+                        <Link to="/contact-us">Contact Us</Link>
+                    </li>
+                    <li>
+                        <Link to="/sponsors">Sponsors</Link>
+                    </li>
+                    <li>
+                        <Link to="/join-us">Join Us</Link>
                     </li>
                 </ul>
                 </nav>

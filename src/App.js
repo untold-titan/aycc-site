@@ -6,6 +6,9 @@ import Layout from './Pages/Layout';
 import { NotFound } from './Pages/NotFound';
 import { Projects } from './Pages/Projects';
 import { FAQ } from './Pages/FAQ';
+import { Contact } from './Pages/ContactUs';
+import { JoinUs } from './Pages/JoinUs';
+import { Sponsors } from './Pages/Sponsors';
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/projects" element={<Projects/>}/>
         <Route path="/faq" element={<FAQ/>}/>
+        <Route path="/contact-us" element={<Contact/>}></Route>
+        <Route path="/sponsors" element={<Sponsors/>}/>
+        <Route path="/join-us" element={<JoinUs/>}/>
       </Route>
       <Route path="*" element={<NotFound/>}/>
     </Routes>
