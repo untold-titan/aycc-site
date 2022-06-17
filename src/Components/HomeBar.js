@@ -14,9 +14,6 @@ export const HomeBar = () =>{
                         <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/aboutus">About Us</Link>
-                    </li>
-                    <li>
                         <Link to="/projects">Projects</Link>
                     </li>
                     <li>
