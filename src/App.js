@@ -1,7 +1,6 @@
 import './App.css';
 import {Home} from './Pages/Home'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { AboutUs } from './Pages/AboutUs';
 import Layout from './Pages/Layout';
 import { NotFound } from './Pages/NotFound';
 import { Projects } from './Pages/Projects';
@@ -18,7 +17,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/projects" element={<Projects/>}/>
         <Route path="/faq" element={<FAQ/>}/>
-        <Route path="/contact-us" element={<Contact/>}></Route>
+        <Route path="/contact-us" element={<Contact/>}/>
         <Route path="/sponsors" element={<Sponsors/>}/>
         <Route path="/join-us" element={<JoinUs/>}/>
       </Route>
