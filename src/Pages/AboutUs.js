@@ -1,4 +1,3 @@
-import { Footer } from "../Components/Footer";
 import { Story } from "../Components/Story";
 import './AboutUs.css'
 
@@ -12,7 +11,6 @@ export function AboutUs() {
                 <Story title="Xiao Xiao"/>
                 <Story text="Yes, I know theres more staff members, Ill add them later"/>
             </div>
-            <Footer />
         </div>
     )
 }
