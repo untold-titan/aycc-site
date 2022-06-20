@@ -8,6 +8,9 @@ import { FAQ } from './Pages/FAQ';
 import { Contact } from './Pages/ContactUs';
 import { JoinUs } from './Pages/JoinUs';
 import { Sponsors } from './Pages/Sponsors';
+import { Events } from './Pages/Programs/Events';
+import { Products } from './Pages/Programs/Products';
+import { Classes } from './Pages/Programs/Classes';
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
         <Route path="/contact-us" element={<Contact/>}/>
         <Route path="/sponsors" element={<Sponsors/>}/>
         <Route path="/join-us" element={<JoinUs/>}/>
+        <Route path="/programs/events" element={<Events/>}/>
+        <Route path="/programs/products" element={<Products/>}/>
+        <Route path="/programs/classes" element={<Classes/>}/>
       </Route>
       <Route path="*" element={<NotFound/>}/>
     </Routes>

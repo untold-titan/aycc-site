@@ -12,7 +12,7 @@ export const HomeBar = () => {
         toggleNavBar(!navBarOpen);
     }
 
-    const closeMenu = () =>{
+    const closeMenu = () => {
         toggleNavBar(false);
     }
 
@@ -35,10 +35,16 @@ export const HomeBar = () => {
                         <Link to="/contact-us" onClick={closeMenu}>Contact Us</Link>
                     </li>
                     <li>
-                        <Link to="/sponsors" onClick={closeMenu}>Sponsors</Link>
+                        <Link to="/join-us" onClick={closeMenu}>Join Us</Link>
                     </li>
                     <li>
-                        <Link to="/join-us" onClick={closeMenu}>Join Us</Link>
+                        <Link to="/programs/events" onClick={closeMenu}>Events</Link>
+                    </li>
+                    <li>
+                        <Link to="/programs/products" onClick={closeMenu}>Products</Link>
+                    </li>
+                    <li>
+                        <Link to="/programs/classes" onClick={closeMenu}>Classes</Link>
                     </li>
                 </ul>
             </div>
@@ -66,10 +72,16 @@ export const HomeBar = () => {
                                 <Link to="/contact-us">Contact Us</Link>
                             </li>
                             <li>
-                                <Link to="/sponsors">Sponsors</Link>
+                                <Link to="/join-us">Join Us</Link>
                             </li>
                             <li>
-                                <Link to="/join-us">Join Us</Link>
+                                <Link to="/programs/events" onClick={closeMenu}>Events</Link>
+                            </li>
+                            <li>
+                                <Link to="/programs/products" onClick={closeMenu}>Products</Link>
+                            </li>
+                            <li>
+                                <Link to="/programs/classes" onClick={closeMenu}>Classes</Link>
                             </li>
                         </ul>
                     </MediaQuery>

@@ -15,7 +15,10 @@ export function Home() {
                     <Story title="Title" text="Because of that, I can have each one of these print out something different" />
                     <Story title="Title Goes Here" text="And make my life easier for adding extra stories/things later! Wow, I actually fixed this!" />
                     <Story text="This would also make it possible to update this website through a webAPI or something extra, instead of actually editing the hard code." />
-                    <Story />
+                </div>
+                <div>
+                    <h1>Sponsors</h1>
+                    <p>We are sponsered by: blah blah blah sponsers go here</p>
                 </div>
                 <AboutUs />
         </div>
