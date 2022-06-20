@@ -22,10 +22,9 @@ export function Home() {
             </div>
             <div className="App core">
                 <h1>ABYPC Staff</h1>
-                <Story title="Mitchell" url={Mitch}/>
                 <Story title="Chris" />
+                <Story title="Mitchell" url={Mitch} text="Mitchell is a staff member of ABYPC, and devloped this website, and helps the club with technology"/>
                 <Story title="Xiao Xiao" />
-                <Story text="Yes, I know theres more staff members, Ill add them later" />
             </div>
         </div>
     )
