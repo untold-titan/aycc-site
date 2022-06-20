@@ -1,9 +1,26 @@
 import './HomeBar.css';
 import {Link } from "react-router-dom";
+import {useState} from "react";
 
 export const HomeBar = () =>{
+
+    const [navBarOpen,toggleNavBar] = useState(false);
+    
+
+    const toggleMenu = () =>{
+        toggleNavBar(!navBarOpen);
+    }
+
     return(
-        <div className="container">
+        <div className={'container'}>
+            <div class={navBarOpen?"navMenu showMenu":"navMenu"}>
+                <button onClick={toggleMenu}>☰</button>
+                <ul>
+                    <li>
+                        <p>OUAHHHHH</p>
+                    </li>
+                </ul>
+            </div>
             <div className="title">
                 <h1>ABYPC</h1>
             </div>
@@ -28,7 +45,11 @@ export const HomeBar = () =>{
                     <li>
                         <Link to="/join-us">Join Us</Link>
                     </li>
+                    <li>
+                        <a onClick={toggleMenu}>☰</a>
+                    </li>
                 </ul>
+
                 </nav>
             </div>
 

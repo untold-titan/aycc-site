@@ -1,5 +1,6 @@
 import { Story } from '../Components/Story'
 import { Footer } from '../Components/Footer'
+
 import { AboutUs } from './AboutUs'
 import MediaQuery from 'react-responsive'
 
