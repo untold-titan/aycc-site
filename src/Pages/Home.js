@@ -1,13 +1,12 @@
 import { Story } from '../Components/Story'
 import { Footer } from '../Components/Footer'
 import { AboutUs } from './AboutUs'
-import { MediaQuery } from 'react-responsive'
+import MediaQuery from 'react-responsive'
 
 export function Home() {
     return (
-
         <div className="App">
-            <MediaQuery maxWidth={1224}>
+            <MediaQuery minWidth={1224}>
                 <div className="main-info">
                     <h1>Alberta Youth Programming Club</h1>
                     <p>
@@ -21,10 +20,9 @@ export function Home() {
                     <Story text="This would also make it possible to update this website through a webAPI or something extra, instead of actually editing the hard code." />
                     <Story />
                 </div>
-                {/* <AboutUs /> */}
-                <Footer />
+                <AboutUs />
             </MediaQuery>
-            <MediaQuery minWidth={1224}>
+            <MediaQuery maxWidth={1224}>
                 <div>
                     <h1>Alberta Youth Programming Club</h1>
                 </div>
