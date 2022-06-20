@@ -4,7 +4,7 @@ import './Story.css'
 export const Story = (Props) =>{
     return(
         <div className="story">
-            <img src="https://via.placeholder.com/350" alt="placeholder"></img>
+            <img src={Props.url} alt="placeholder"></img>
             <h1>{Props.title}</h1>
             <p>{Props.text}</p>
         </div>
