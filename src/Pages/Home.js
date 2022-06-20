@@ -1,5 +1,4 @@
 import {Story} from '../Components/Story'
-import {Footer} from '../Components/Footer'
 import { AboutUs } from './AboutUs'
 
 export function Home() {
@@ -19,7 +18,6 @@ export function Home() {
                 <Story />
             </div>
             <AboutUs />
-            <Footer />
         </div>
     )
 }

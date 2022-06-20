@@ -37,3 +37,20 @@ a{
     font-size: 22px;
     color: black;
 }
+
+.navMenu {
+    list-style: none;
+    position: fixed;
+    top: 0;
+    background: darkcyan;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 0;
+    overflow: hidden;
+    max-width: 290px;
+    z-index: 9;
+}
+.showMenu{
+    width: 100%
+}
