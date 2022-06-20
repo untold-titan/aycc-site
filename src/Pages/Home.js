@@ -1,13 +1,9 @@
 import { Story } from '../Components/Story'
-import { Footer } from '../Components/Footer'
-
 import { AboutUs } from './AboutUs'
-import MediaQuery from 'react-responsive'
 
 export function Home() {
     return (
         <div className="App">
-            <MediaQuery minWidth={1224}>
                 <div className="main-info">
                     <h1>Alberta Youth Programming Club</h1>
                     <p>
@@ -22,12 +18,6 @@ export function Home() {
                     <Story />
                 </div>
                 <AboutUs />
-            </MediaQuery>
-            <MediaQuery maxWidth={1224}>
-                <div>
-                    <h1>Alberta Youth Programming Club</h1>
-                </div>
-            </MediaQuery>
         </div>
     )
 }
