@@ -1,4 +1,4 @@
-export const JoinUs = () =>{
+export const Volunteer = () =>{
     return(
         <p>ONE OF US</p>
     )

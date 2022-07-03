@@ -24,7 +24,20 @@
     padding-right: 30px;
     /* border-right: 1px solid blue; */
 }
+
 /* Used when desktop platform is in use */
+
+.dropdown{
+    background-color: white;
+    border: 1px black;
+    border-top: 0;
+    border-style: solid;
+}
+
+.dropdown_list{
+    padding-left: 0;
+}
+
 .desktopNav{
     display: flex;
 }

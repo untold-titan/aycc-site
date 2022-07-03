@@ -2,11 +2,11 @@ import './HomeBar.css';
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import MediaQuery from 'react-responsive';
+import { Dropdown } from './Dropdown';
 
 export const HomeBar = () => {
 
     const [navBarOpen, toggleNavBar] = useState(false);
-
 
     const toggleMenu = () => {
         toggleNavBar(!navBarOpen);
@@ -15,6 +15,8 @@ export const HomeBar = () => {
     const closeMenu = () => {
         toggleNavBar(false);
     }
+
+
 
     return (
         <div className={'container'}>
@@ -63,25 +65,16 @@ export const HomeBar = () => {
                                 <Link to="/">Home</Link>
                             </li>
                             <li>
-                                <Link to="/projects">Projects</Link>
+                                <Dropdown categoryName="About Us" links={[{name:"Community",path:"/about-us/community"},{name:"Contact Us",path:"/about-us/contact-us"}]}/>
                             </li>
                             <li>
-                                <Link to="/faq">FAQ</Link>
+                                <Dropdown categoryName="Programs" links={[{name:"Events",path:"/programs/events"},{name:"Packages",path:"/programs/packages"}]}/>
                             </li>
                             <li>
-                                <Link to="/contact-us">Contact Us</Link>
+                                <Dropdown categoryName="Education" links={[{name:"Classes",path:"/education/classes"},{name:"Booklets",path:"/education/booklets"}]}/>
                             </li>
                             <li>
-                                <Link to="/join-us">Join Us</Link>
-                            </li>
-                            <li>
-                                <Link to="/programs/events" onClick={closeMenu}>Events</Link>
-                            </li>
-                            <li>
-                                <Link to="/programs/products" onClick={closeMenu}>Products</Link>
-                            </li>
-                            <li>
-                                <Link to="/programs/classes" onClick={closeMenu}>Classes</Link>
+                                <Link to="/volunteer">Volunteer</Link>
                             </li>
                         </ul>
                     </MediaQuery>

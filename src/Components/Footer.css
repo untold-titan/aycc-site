@@ -6,7 +6,14 @@
     padding-bottom: 50px;
     padding-top: 20px;
     text-align: center;
+    display:flex;
 }
 .footerLink{
     font-size: 20px;
+}
+.footer_div{
+    width: fit-content;
+}
+.images{
+    width:50%
 }
