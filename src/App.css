@@ -9,6 +9,8 @@
 p{
   overflow-wrap: break-word;
   font-size: 19px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .core{
   padding-top: 100px;

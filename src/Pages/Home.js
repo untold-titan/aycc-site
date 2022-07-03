@@ -1,5 +1,5 @@
 import { Story } from '../Components/Story'
-import Mitch from '../Images/Mitch.JPG'
+import Mitch from '../Images/Titan.png'
 
 export function Home() {
     return (
@@ -7,7 +7,7 @@ export function Home() {
             <div className="main-info">
                 <h1>Alberta Youth Programming Club</h1>
                 <p>
-                    We are the Alberta Youth Programming Club, this site was created by Titan, Idk what else to write here, just making placeholder stuff I guess
+                    The Calgary Youth Coding Club is a provincial nonprofit that works to help Calgarian youth explore and learn more about STEM. We teach and host STEM related events and activities for students to develop and learn their STEM skills. We aim to help Calgarian youth explore STEM because we believe that when given the proper guidance and tools, our youth will lead our future as innovators and leaders. Our club serves a welcoming environment for all interested in pursuing STEM in the future.
                 </p>
             </div>
             <div className="core">

@@ -1,10 +1,9 @@
 import './Story.css'
 
-
 export const Story = (Props) =>{
     return(
         <div className="story">
-            <img src={Props.url} alt="placeholder"></img>
+            <img className="story_image" src={Props.url} alt="placeholder"></img>
             <h1>{Props.title}</h1>
             <p>{Props.text}</p>
         </div>
@@ -13,6 +12,6 @@ export const Story = (Props) =>{
 
 Story.defaultProps = {
     title: "Title",
-    text: "Probably forgot to add the text",
+    text: "You probably forgot to add the text",
     url:"https://via.placeholder.com/350"
 }
