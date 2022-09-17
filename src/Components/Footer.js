@@ -1,20 +1,16 @@
 import './Footer.css'
 import Discord from '../Images/Discord.png'
 import Insta from '../Images/Insta.png'
-import sponsors from '../Images/sponsors.png'
-import logo from '../Images/logo.jpg'
+import {faker} from '@faker-js/faker'
 
 export const Footer = () =>{
     return(
         <div className="footer">
             <div className='footer_div'>
-                <img className="images" src={logo} alt="Abypc Logo"></img>
+                <h1>Contact Us!</h1>
+                <p>{faker.hacker.phrase()}</p>
             </div>
-            <div className='footer_div'>
-                <h1>Sponsors</h1>
-                <img alt="Sponsors." className='images' src={sponsors}></img>
-            </div>
-            <div className="socials">
+            <div className="footer_div">
                 <h1>Socials</h1>
                 <a className="footerLink" href="https://discord.gg/xjtxRZgppq">
                     <img alt="Discord Logo" width="50px" height="50px" src={Discord}/>

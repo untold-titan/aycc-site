@@ -12,6 +12,12 @@ p{
   margin-left: 5px;
   margin-right: 5px;
 }
+
+.header{
+  text-align: left;
+  padding-left: 50px;
+}
+
 .core{
   padding-top: 100px;
   width:auto;

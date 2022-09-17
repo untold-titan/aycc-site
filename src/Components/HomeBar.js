@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import MediaQuery from 'react-responsive';
 import { Dropdown } from './Dropdown';
+import Logo from '../Images/logo.jpg'
 
 export const HomeBar = () => {
 
@@ -53,7 +54,8 @@ export const HomeBar = () => {
 
             {/* Normal Home Bar Stuff */}
             <div className="title">
-                <h1>ABYPC</h1>
+                {/* <h1>ABYPC</h1> */}
+                <img className="logo" alt="logo" src={Logo}></img>
             </div>
 
             <div className="navigation">
@@ -65,10 +67,10 @@ export const HomeBar = () => {
                                 <Link to="/">Home</Link>
                             </li>
                             <li>
-                                <Dropdown categoryName="About Us" links={[{name:"Community",path:"/about-us/community"},{name:"Contact Us",path:"/about-us/contact-us"}]}/>
+                                <Dropdown categoryName="Programs" links={[{name:"Events",path:"/programs/events"},{name:"Packages",path:"/programs/packages"}]}/>
                             </li>
                             <li>
-                                <Dropdown categoryName="Programs" links={[{name:"Events",path:"/programs/events"},{name:"Packages",path:"/programs/packages"}]}/>
+                                <Dropdown categoryName="About Us" links={[{name:"Community",path:"/about-us/community"},{name:"Contact Us",path:"/about-us/contact-us"}]}/>
                             </li>
                             <li>
                                 <Dropdown categoryName="Education" links={[{name:"Classes",path:"/education/classes"},{name:"Booklets",path:"/education/booklets"}]}/>
